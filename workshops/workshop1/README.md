@@ -2,7 +2,7 @@
 ## Component diagram
 ![component diagram](component-diagram.png)
 
-The diagram shows how the different modules interact with each other for iteration, so that the RL module and its components modify the agent environment and the agent sensors detect the new output and initiate the feedback loop (next diagram).
+The diagram shows how the different modules interact with each other for iteration, so that the RL module, the framework and the action tiggered modify the agent environment like the position of gold, wind and smell in the discovered world for now. This is detected by the agent's sensors and sent to the RL module to give the new output and initiate the feedback loop (next diagram).
 ## Feedback Loops Illustration
 ![component diagram](feedback-loops.png)
 
